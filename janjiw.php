@@ -49,7 +49,7 @@ if (strpos($cek[1], 'Anda akan mendaftar')) {
 					}
 				} elseif (empty($tkn[1])) {
 					echo "[+] Error, tryagain\n";
-					goto Token;
+					goto Ulang;
 				} else {
 					die($tkn[1]);
 				}
